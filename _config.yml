@@ -1,0 +1,13 @@
+# Site settings
+title: Portfolio
+description: Photographer // Student // Pleb
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+port: 8080
+
+sass:
+  sass_dir: assets/css
+  style: :nested

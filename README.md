@@ -2,9 +2,5 @@ Not completed
 
 ------ Reminder ------
 
-define these in the config file
-- Make profile image easily replaceable
-- Make header image also easily replaceable
-
-
-
+-find out why the text is crunched up in work section overlay
+-find out why the transition is working on work section overlay

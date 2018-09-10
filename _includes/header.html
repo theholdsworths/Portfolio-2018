@@ -1,11 +1,10 @@
-<header>
+<header id="header">
   <div class="logo">{% include icons/logo.html %}</div>
 
   <nav>
-      <a href="">About Me</a>
-      <a href="">Work</a>
-      <a href="">Photos</a>
-      <a href="">Contact</a>
+       {% for item in site.data.portfolio.menu %}
+           <a href="{{ item.url }}"> {{ item.name }} </a>
+       {% endfor %}
     </nav>
 
     <h1><span>Portfolio</span> </h1>

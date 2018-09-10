@@ -1,6 +1,13 @@
-Not completed
+DevTips-Starter-Kit (Jekyll Friendly)
+===================
 
------- Reminder ------
+Use this as a simple structure for a simple start to a simple site.
 
--find out why the text is crunched up in work section overlay
--find out why the transition is working on work section overlay
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=GTBaQ2DcGUk
+" target="_blank">
+Watch the video on YouTube
+<img src="thumbnail.png" 
+alt="Watch the video on youtube" />
+
+</a>

@@ -1,9 +1,9 @@
 <section>
-     <h3>About Me</h3>
+     <h3 id="about-me">About Me</h3>
 
      <div class="face-lockup">
 
-          <div class="face-img"></div>
+          <div class="face-img" style="background-image: url(/assets/img/{{ site.avatar }})"></div>
 
           <div class="icon-mount1">{% include icons/icon-mountain.html %}</div>
           <div class="icon-mount2">{% include icons/icon-mountain.html %}</div>
@@ -13,57 +13,21 @@
      </div>
 
      <div class="blurb">
-          <p> Scott is a student studying Computer Games Programming at the University of Lincoln. He has a hobby and talent in creating digital content, such as photography,
-     logos, and developing websites! He also loves to adventure the world, but the place he has stayed the most is in his home country the United Kingdom</p>
+          {{ site.data.portfolio.blurb }}
      </div>
           <div class="skill-lockup">
+
+               {% for skill in site.data.portfolio.skills %}
+
                <div class="skill-unit">
-                    <div class="skill-label">Communication</div>
-                    <div class="skill-icons skill-8">
+                    <div class="skill-label">{{ skill.name }}</div>
+                    <div class="skill-icons skill-{{ skill.value }}">
                          <span></span><span></span><span></span><span></span><span></span>
                          <span></span><span></span><span></span><span></span><span></span>
                     </div>
                </div>
 
-               <div class="skill-unit">
-                    <div class="skill-label">Learning</div>
-                    <div class="skill-icons skill-10">
-                         <span></span><span></span><span></span><span></span><span></span>
-                         <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-               </div>
-
-               <div class="skill-unit">
-                    <div class="skill-label">Programming</div>
-                    <div class="skill-icons skill-6">
-                         <span></span><span></span><span></span><span></span><span></span>
-                         <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-               </div>
-
-               <div class="skill-unit">
-                    <div class="skill-label">Organization</div>
-                    <div class="skill-icons skill-7">
-                         <span></span><span></span><span></span><span></span><span></span>
-                         <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-               </div>
-
-               <div class="skill-unit">
-                    <div class="skill-label">Web development</div>
-                    <div class="skill-icons skill-5">
-                         <span></span><span></span><span></span><span></span><span></span>
-                         <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-               </div>
-
-               <div class="skill-unit">
-                    <div class="skill-label">Creativity</div>
-                    <div class="skill-icons skill-8">
-                         <span></span><span></span><span></span><span></span><span></span>
-                         <span></span><span></span><span></span><span></span><span></span>
-                    </div>
-               </div>
+               {% endfor %}
           </div>
 
 </section>

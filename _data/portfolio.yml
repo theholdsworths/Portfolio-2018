@@ -1,0 +1,41 @@
+#portfolio settings
+title: Portfolio
+description: Photographer // Student // Pleb
+
+#MENU ITEM LIST
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Photos, url: '#photos'}
+- {name: Contact, url: '#contact'}
+
+
+#SKILL LIST
+
+skills:
+- {name: Communication, value: '8'}
+- {name: Learning, value: '10'}
+- {name: Programming, value: '6'}
+- {name: Organization, value: '7'}
+- {name: Web development, value: '5'}
+- {name: Creativity, value: '8'}
+
+#WORK LIST
+
+projects:
+- {name: Typo internati, folder: 'project-1/thumb.jpg'}
+- {name: City-In Website concept, folder: 'project-2/thumb.jpg'}
+- {name: Crispy Icons, folder: 'project-3/thumb.jpg'}
+- {name: Flat mobile , folder: 'project-4/thumb.jpg'}
+- {name: stripes ui, folder: 'project-5/thumb.jpg'}
+- {name: Weather dash, folder: 'project-6/thumb.jpg'}
+- {name: timeline app, folder: 'project-7/thumb.jpg'}
+- {name: fresh creps, folder: 'project-8/thumb.jpg'}
+
+#Change the site default images and content here
+bg-img: clouds.jpg
+
+avatar: face2.jpg
+blurb: <p> Scott is a student studying Computer Games Programming at the University of Lincoln. He has a hobby and talent in creating digital content, such as photography,
+     logos, and developing websites! He also loves to adventure the world, but the place he has stayed the most is in his home country the United Kingdom.</p>
